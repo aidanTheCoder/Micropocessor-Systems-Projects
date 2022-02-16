@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>204230004</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\..\..\..\grlib\ewarm\Exe\grlib.a</file>
+      <file>$PROJ_DIR$\..\..\..\..\driverlib\ewarm\Exe\driverlib.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\inc\hw_types.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\driverlib\gpio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\grlib\grlib.h</file>
+      <file>$PROJ_DIR$\..\drivers\cfal96x64x16.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\ewarm\Exe\lab7_stepper.out</file>
+      <file>$PROJ_DIR$\..\..\..\..\driverlib\adc.h</file>
+      <file>$PROJ_DIR$\startup_ewarm.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\inc\hw_ints.h</file>
+      <file>$PROJ_DIR$\ewarm\Obj\cfal96x64x16.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\inc\hw_memmap.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$PROJ_DIR$\lab7_stepper.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\driverlib\ssi.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\driverlib\fpu.h</file>
+      <file>$PROJ_DIR$\..\drivers\cfal96x64x16.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\driverlib\debug.h</file>
+      <file>$PROJ_DIR$\ewarm\Obj\startup_ewarm.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\ewarm\Obj\lab7_stepper.pbi</file>
+      <file>$PROJ_DIR$\ewarm\Obj\lab7_stepper.__cstat.et</file>
+      <file>$PROJ_DIR$\ewarm\Exe\lab7_stepper.bin</file>
+      <file>$PROJ_DIR$\ewarm\Obj\cfal96x64x16.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
+      <file>$PROJ_DIR$\..\..\..\..\inc\hw_nvic.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\driverlib\timer.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\driverlib\pin_map.h</file>
+      <file>$PROJ_DIR$\ewarm\Obj\cfal96x64x16.__cstat.et</file>
+      <file>$PROJ_DIR$\..\..\..\..\driverlib\sysctl.h</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+      <file>$PROJ_DIR$\lab7_stepper.icf</file>
+      <file>$PROJ_DIR$\..\..\..\..\driverlib\uart.h</file>
+      <file>$PROJ_DIR$\ewarm\Obj\startup_ewarm.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\driverlib\interrupt.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\driverlib\rom.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\driverlib\comp.h</file>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+      <file>$PROJ_DIR$\ewarm\Obj\lab7_stepper.o</file>
+      <file>$PROJ_DIR$\ewarm\Obj\startup_ewarm.pbi</file>
+      <file>$PROJ_DIR$\ewarm\List\lab7_stepper.map</file>
+      <file>$PROJ_DIR$\ewarm\Obj\lab7_stepper.pbd</file>
+      <file>$PROJ_DIR$\..\lab3_adc_new\lab3_adc_new.c</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 9 52</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\drivers\cfal96x64x16.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 13</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 35</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 16 33 24 42 46 17 15 8 29 14 5 19 36 45 34 6 47 21</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 24 6 8 17 19 14 45 46 15 33 5 36 34 21 42 29 16 47</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\ewarm\Exe\lab7_stepper.out</name>
+      <outputs>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 27</file>
+        </tool>
+        <tool>
+          <name>ILINK</name>
+          <file> 52</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 38 13 1 0 50 40 43 37 30 49</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\startup_ewarm.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 40</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 51</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 23</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 33 24 42 46 17 15 8 29 31 3</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 24 42 3 29 31 46 8 17 15 33</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lab7_stepper.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 50</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 26</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 4 24 42 46 17 15 8 29 44 2 33 16 12 14 3 22 20 41 36 32 45 6 47 21 39 5 48 10</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15 48 41 24 14 6 46 16 22 32 39 44 8 17 42 33 12 3 20 36 45 21 5 10 2 29 4 47</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+</project>
+
+
